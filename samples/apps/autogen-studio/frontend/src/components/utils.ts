@@ -243,7 +243,7 @@ export const formatDuration = (seconds: number) => {
   return parts.length > 0 ? parts.join(" ") : "0 sec";
 };
 
-export const sampleAgentConfig = (user_id: string = "guestuser@gmail.com") => {
+export const sampleAgentConfig = (user_id: string = "dan.oriordan@capgemini.com") => {
   const sampleAgent: IAgentFlowSpec = {
     type: "assistant",
     user_id: user_id,

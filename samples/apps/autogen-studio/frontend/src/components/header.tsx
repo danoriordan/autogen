@@ -7,6 +7,7 @@ import {
   MoonIcon,
   SunIcon,
 } from "@heroicons/react/24/outline";
+import CompanyLogoIcon from "./CompanyLogo"; // Import your logo component
 import { Fragment } from "react";
 import { appContext } from "../hooks/provider";
 import { Link } from "gatsby";
@@ -122,7 +123,7 @@ const Header = ({ meta, link }: any) => {
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
                   ) : (
-                    <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                    <CompanyLogoIcon className="block h-6 w-6" aria-hidden="true" />
                   )}
                 </Disclosure.Button>
               </div>

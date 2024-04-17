@@ -7,7 +7,7 @@ import RAView from "../components/views/playground/ra";
 const IndexPage = ({ data }: any) => {
   return (
     <Layout meta={data.site.siteMetadata} title="Home" link={"/"}>
-      <main style={{ height: "100%" }} className=" h-full ">
+      <main style={{ height: "300%" }} className=" h-full ">
         <RAView />
       </main>
     </Layout>

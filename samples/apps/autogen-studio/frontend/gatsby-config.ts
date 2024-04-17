@@ -16,9 +16,9 @@ require("dotenv").config({
 const config: GatsbyConfig = {
   pathPrefix: `${process.env.PREFIX_PATH_VALUE}`,
   siteMetadata: {
-    title: `AutoGen Studio [Beta]`,
+    title: `RAISE Agentic Studio [Beta]`,
     description: `Build Multi-Agent Apps`,
-    siteUrl: `http://tbd.place`,
+    siteUrl: `http://capgemini.com`,
   },
   flags: {
     LAZY_IMAGES: true,
@@ -33,9 +33,10 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/icon2.png",
       },
     },
+ 
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
